@@ -9,8 +9,8 @@ import math
 
 def is_prime (n):
     '''
-    Return True if the integer 'n' is a prime number. Otherwise, it returns False
-    To determine if 'n' is not a prime number, is it enough to check if at least one of the numbers
+    Returns True if the integer 'n' is a prime number. Otherwise, it returns False.
+    To determine if 'n' is not a prime number, it is enough to check if at least one of the numbers
     from the list <2, 3, 4, ..., int(srqt(n))> divides 'n'.
     Input :
         n       -> integer
